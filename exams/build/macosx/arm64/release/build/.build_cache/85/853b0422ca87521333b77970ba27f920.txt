@@ -1,0 +1,7 @@
+{
+    errdata = "\27[1m16_class_move/main.cpp:80:10: \27[0m\27[0;1;35mwarning: \27[0m\27[1mexplicitly moving variable of type 'DynFibonacci' to itself [-Wself-move]\27[0m\
+    fib0 = std::move(fib0);\
+\27[0;1;32m    ~~~~ ^           ~~~~\
+\27[0m1 warning generated.\
+"
+}

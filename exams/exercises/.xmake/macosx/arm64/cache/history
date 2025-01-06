@@ -1,0 +1,12 @@
+{
+    cmdlines = {
+        "xmake lua /Users/demon/.local/share/xmake/modules/private/utils/statistics.lua --project=/Users/demon/learning-cxx/exercises",
+        "xmake lua /Users/demon/.local/share/xmake/actions/build/cleaner.lua --project=/Users/demon/learning-cxx/exercises",
+        "xmake lua /Users/demon/.local/share/xmake/modules/private/utils/statistics.lua --project=/Users/demon/learning-cxx/exercises",
+        "xmake lua /Users/demon/.local/share/xmake/actions/build/cleaner.lua --project=/Users/demon/learning-cxx/exercises",
+        "xmake lua /Users/demon/.local/share/xmake/modules/private/utils/statistics.lua --project=/Users/demon/learning-cxx/exercises",
+        "xmake lua /Users/demon/.local/share/xmake/actions/build/cleaner.lua --project=/Users/demon/learning-cxx/exercises",
+        "xmake lua /Users/demon/.local/share/xmake/modules/private/utils/statistics.lua --project=/Users/demon/learning-cxx/exercises",
+        "xmake lua /Users/demon/.local/share/xmake/actions/build/cleaner.lua --project=/Users/demon/learning-cxx/exercises"
+    }
+}

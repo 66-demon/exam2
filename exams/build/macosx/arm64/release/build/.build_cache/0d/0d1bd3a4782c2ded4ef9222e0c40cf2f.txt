@@ -1,0 +1,16 @@
+{
+    errdata = "\27[1m20_function_template/main.cpp:19:23: \27[0m\27[0;1;35mwarning: \27[0m\27[1mimplicit conversion from 'float' to 'int' changes value from 2.5 to 2 [-Wliteral-conversion]\27[0m\
+    if (!(plus(1.25f, 2.5f) == 3.75f)) { std::cerr << \"\\x1b[31mAssertion failed at line #\" << 19 << \": \\x1b[0m\" << std::endl << std::endl << \"plus(1.25f, 2.5f) == 3.75f\" << std::endl << std::endl << \"\\x1b[34mMessage:\\x1b[0m\" << std::endl << std::endl << \"Plus two float\" << std::endl << std::endl; exit(1); };\
+\27[0;1;32m          ~~~~        ^~~~\
+\27[0m\27[1m20_function_template/main.cpp:19:16: \27[0m\27[0;1;35mwarning: \27[0m\27[1mimplicit conversion from 'float' to 'int' changes value from 1.25 to 1 [-Wliteral-conversion]\27[0m\
+    if (!(plus(1.25f, 2.5f) == 3.75f)) { std::cerr << \"\\x1b[31mAssertion failed at line #\" << 19 << \": \\x1b[0m\" << std::endl << std::endl << \"plus(1.25f, 2.5f) == 3.75f\" << std::endl << std::endl << \"\\x1b[34mMessage:\\x1b[0m\" << std::endl << std::endl << \"Plus two float\" << std::endl << std::endl; exit(1); };\
+\27[0;1;32m          ~~~~ ^~~~~\
+\27[0m\27[1m20_function_template/main.cpp:20:22: \27[0m\27[0;1;35mwarning: \27[0m\27[1mimplicit conversion from 'double' to 'int' changes value from 2.5 to 2 [-Wliteral-conversion]\27[0m\
+    if (!(plus(1.25, 2.5) == 3.75)) { std::cerr << \"\\x1b[31mAssertion failed at line #\" << 20 << \": \\x1b[0m\" << std::endl << std::endl << \"plus(1.25, 2.5) == 3.75\" << std::endl << std::endl << \"\\x1b[34mMessage:\\x1b[0m\" << std::endl << std::endl << \"Plus two double\" << std::endl << std::endl; exit(1); };\
+\27[0;1;32m          ~~~~       ^~~\
+\27[0m\27[1m20_function_template/main.cpp:20:16: \27[0m\27[0;1;35mwarning: \27[0m\27[1mimplicit conversion from 'double' to 'int' changes value from 1.25 to 1 [-Wliteral-conversion]\27[0m\
+    if (!(plus(1.25, 2.5) == 3.75)) { std::cerr << \"\\x1b[31mAssertion failed at line #\" << 20 << \": \\x1b[0m\" << std::endl << std::endl << \"plus(1.25, 2.5) == 3.75\" << std::endl << std::endl << \"\\x1b[34mMessage:\\x1b[0m\" << std::endl << std::endl << \"Plus two double\" << std::endl << std::endl; exit(1); };\
+\27[0;1;32m          ~~~~ ^~~~\
+\27[0m4 warnings generated.\
+"
+}

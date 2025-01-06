@@ -1,0 +1,10 @@
+{
+    errdata = "\27[1m19_class_virtual_destruct/main.cpp:48:5: \27[0m\27[0;1;35mwarning: \27[0m\27[1mdelete called on non-final 'A' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]\27[0m\
+    delete a;\
+\27[0;1;32m    ^\
+\27[0m\27[1m19_class_virtual_destruct/main.cpp:63:5: \27[0m\27[0;1;35mwarning: \27[0m\27[1mdelete called on non-final 'A' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]\27[0m\
+    delete ab;\
+\27[0;1;32m    ^\
+\27[0m2 warnings generated.\
+"
+}

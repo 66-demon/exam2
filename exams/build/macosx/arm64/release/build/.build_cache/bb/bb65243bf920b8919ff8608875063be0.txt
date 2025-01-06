@@ -1,0 +1,10 @@
+{
+    errdata = "\27[1m29_std_map/main.cpp:10:1: \27[0m\27[0;1;35mwarning: \27[0m\27[1mnon-void function does not return a value [-Wreturn-type]\27[0m\
+}\
+\27[0;1;32m^\
+\27[0m\27[1m29_std_map/main.cpp:24:11: \27[0m\27[0;1;30mnote: \27[0min instantiation of function template specialization 'key_exists<std::string, std::string>' requested here\27[0m\
+    if (!(key_exists(secrets, \"hello\"s))) { std::cerr << \"\\x1b[31mAssertion failed at line #\" << 24 << \": \\x1b[0m\" << std::endl << std::endl << \"key_exists(secrets, \\\"hello\\\"s)\" << std::endl << std::endl << \"\\x1b[34mMessage:\\x1b[0m\" << std::endl << std::endl << \"\\\"hello\\\" shoud be in `secrets`\" << std::endl << std::endl; exit(1); };\
+\27[0;1;32m          ^\
+\27[0m1 warning generated.\
+"
+}
